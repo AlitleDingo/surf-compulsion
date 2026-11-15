@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surf Compulsion</title>
+    <meta name="description" content="Surf Compulsion — surf video showcase hosted on GitHub Pages." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="brand">Surf Compulsion</div>
+        <div class="nav-links">
+          <a href="#video">Video</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow">Ocean energy</p>
+          <h1>Ride the line. Chase the swell.</h1>
+          <p class="subtitle">
+            A surf video page built to host your content publicly with GitHub Pages.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#video">Watch now</a>
+            <a class="button secondary" href="#about">About</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <p class="card-label">Featured Session</p>
+          <h2>Blue Hour</h2>
+          <p>Offshore wind • Glassy dawn • Tube time</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="video" class="video-section container">
+        <div class="section-heading">
+          <p class="eyebrow dark">Featured video</p>
+          <h2>Watch the latest surf edit</h2>
+        </div>
+
+        <div class="video-frame">
+          <video controls playsinline preload="metadata" poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80">
+            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="video-meta">
+          <div>
+            <span class="meta-label">Location</span>
+            <strong>North Shore</strong>
+          </div>
+          <div>
+            <span class="meta-label">Duration</span>
+            <strong>1:54</strong>
+          </div>
+          <div>
+            <span class="meta-label">Format</span>
+            <strong>MP4 / GitHub Pages</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow dark">About</p>
+            <h2>Built to showcase your surf story.</h2>
+          </div>
+          <div>
+            <p>
+              This project is a clean video landing page that can host your surf footage on GitHub Pages.
+              Replace the sample video file with your own MP4 and the page is ready to publish.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section container" id="contact">
+        <div>
+          <p class="eyebrow dark">Ready to publish</p>
+          <h2>Drop in your video and launch.</h2>
+        </div>
+        <a class="button primary" href="README.md">View setup guide</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Surf Compulsion © 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>
